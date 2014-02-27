@@ -1,4 +1,4 @@
-# a ruby script that logins downloads a specified file on a https website using mechanize gem. have fun, do what you wish with it.
+# a ruby script that logins downloads a specified file on a https website using mechanize gem. have fun!
 # MIT License
 
 require 'rubygems'
