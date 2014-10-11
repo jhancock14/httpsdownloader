@@ -38,8 +38,8 @@ class AutomotonDownloader
     
     # to download all file types in a directory use this instead
     #@a.pluggable_parser.pdf = Mechanize::FileSaver
-    #@a.get 'https://cmsreports.csus.edu/psreports/HSACPRD/*/*.pdf'
-    #Dir['cmsreports.csus.edu/psreports/HSACPRD/*/*']
+    #@a.get 'https://website'
+    #Dir['directory']
 
     # error case for when a user name and password are not entered when running the script
     abort "Error: Enter Login name and Password!" if (ARGV.size != 2)
